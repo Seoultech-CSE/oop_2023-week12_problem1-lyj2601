@@ -37,7 +37,7 @@ public class Problem1 {
                 Number num1 = list.get(j);
                 Number num2 = list.get(j + 1);
                 if (num1.doubleValue() > num2.doubleValue()) {
-                    // Swap elements
+   
                     list.set(j, num2);
                     list.set(j + 1, num1);
                 }
